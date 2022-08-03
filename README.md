@@ -36,11 +36,15 @@ step3: And then try running the file (note the preceding `./` – you’ll need 
 # Install rspec gem inside ruby application:
 
 step1: Create a file named `Gemfile` inside project directory.
+
 step2: Add the gem
       - `gem 'rspec'`
+      
 step3: bundle install
       - `bundle install`
+      
 step4: To generating spec_helper.rb from rspec to run the below command:
       - `rspec --init`
+      
 step5: To run the spec, run the below commond inside project directory.
       - `rspec spec/cards_spec.rb`
